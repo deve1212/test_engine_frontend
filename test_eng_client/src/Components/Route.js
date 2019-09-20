@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Appbar from './Dashboard/Appbar';
+import  Dashboard from './Dashboard/Dashboard';
 
 export default () => {
     return (
         <BrowserRouter>
             <Switch>
-                <Route  path='/' component={Appbar}/>
+                <Route  path='/' component={Dashboard}/>
             </Switch>
         </BrowserRouter>
     )

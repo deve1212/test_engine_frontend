@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-// import CustomReducer from './custom-reducer';
+import subjectReducer from './subject-reducer';
 
 const combinedReducers = combineReducers({
-    // custom: CustomReducer,
+    subjects: subjectReducer,
 });
 
 export default combinedReducers;
